@@ -43,7 +43,7 @@
     albumHeader.append(albumLink);
     albumLi.append(photoCountBadge);
 
-    albumLink.setAttribute("href", `photos.html?albumId=${album.id}`);
+    albumLink.setAttribute("href", `./html/photos.html?albumId=${album.id}`);
     albumLink.setAttribute("target", "_blank");
 
     albumLi.classList.add("album-item", "list-group-item", "d-flex", "justify-content-between", "align-items-start", "list-group-item-success");
